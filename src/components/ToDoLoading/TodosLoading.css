@@ -1,0 +1,43 @@
+.LoadingContainer{
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+}
+.taskWrapper{
+  display: flex;
+  justify-content: space-around;
+}
+.LoadingEsphere{
+  width: 60px;
+  height: 60px;
+  margin: 5px 0 0 10px;
+  border-radius: 50%;
+
+}
+
+.LoadingTaskContainer{
+  width: calc(100% - 100px);
+  height: 50px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.LoadingTaskContainer,.LoadingEsphere{
+  background:linear-gradient(90deg,rgba(250,250,250,1), rgba(200,199,199));
+  background-size: 400% 400%;
+  animation: loadingAnimation 3s ease-in-out infinite;
+  opacity: 0.8;
+}
+
+@keyframes loadingAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

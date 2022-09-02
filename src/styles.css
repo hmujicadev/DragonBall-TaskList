@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  user-select: none;
+}
+
+.mainContainer{
+  height: 100vh;
+  background:no-repeat url('./images/background.png');
+  background-size: cover;
+}
+
+.listContainer{
+  margin-left: 50%
+}
+
+.imageLogo{
+  width: 35vw;
+}
+.listLogo{
+  width: 7vw;
+}
+.taskLogo{
+  width: 6vw;
+}
+
+.listContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formHeaderWrap{
+  position: absolute;
+  top: 0;
+}
+
+body{
+  margin: 0;
+  background-color:#61dafb;
+}
+

@@ -1,0 +1,43 @@
+.todoSearchContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.inputSearch{
+  height: 30px;
+  margin-right: 10px;
+  margin-left: 30%;
+  outline: none;
+  border-radius: 20px;
+  border: none;
+  padding: 5px 10px;
+}
+
+.searchIcon{
+  height: 65px;
+  cursor: pointer;
+}
+.searchIcon:hover{
+  animation: myAnim .4s ease 0s normal forwards;
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 50% 50%;
+	}
+
+	20% {
+		transform: rotate(2deg);
+	}
+
+	50% {
+		transform: rotate(-2deg);
+	}
+
+	80% {
+		transform: rotate(2deg);
+	}
+}

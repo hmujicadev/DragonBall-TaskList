@@ -1,0 +1,76 @@
+.modalBackground{
+  background-color: rgba(0, 0, 0, .6);
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  overflow: hidden;
+}
+.modalContent{
+  width: 40em;
+  height: 50%;
+  margin: auto 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.flyingCloud{
+  width: 58em;
+}
+.modalContentComming{
+  animation-name: comming;
+  animation-duration: .7s;
+}
+.modalContentOut{
+  animation-name: output;
+  animation-duration: .8s;
+}
+
+.modalClose{
+  position: absolute;
+  top: 20%;
+  right: .1em;
+  cursor: pointer;
+}
+.modalCloseVideo{
+  margin: 20px;
+  cursor: pointer;
+  color: white;
+}
+.modalVideo{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.videoShenlong{
+  width: 60vw;
+  height: 90vh;
+  margin: auto;
+}
+
+@keyframes comming {
+  0%    {transform: scale(0.04) rotateY(180deg);left:-10%;top: -60%;}
+  10%   {transform: scale(0.04) rotateY(190deg);left:-25%;top: -55%;}
+  20%   {transform: scale(0.04) rotateY(190deg);left:-30%;top: -50%;}
+  30%   {transform: scale(0.1) rotateY(190deg);left:-35%;top: -45%;}
+  40%   {transform: scale(0.1) rotateY(190deg);left:-40%;top: -40%;}
+  50%   {transform: scale(0.1) rotateY(190deg);left:-45%;top: -35%;}
+  60%   {transform: scale(0.1) rotateY(190deg);left:-50%;top: -30%;}
+  70%   {transform: scale(0.2) rotateY(190deg);left:-75%;top: -25%;}
+  80%   {transform: scale(0.2) rotateY(190deg);left:-85%;top: -20%;}
+  85%   {transform: scale(0.2) rotateY(0deg);left:-120%;top: 0%;}
+  95%   {transform:scale(0.95); top:0%;}
+  100%  {transform:scale(1);left:0%;}
+}
+
+@keyframes output {
+  0%   {right:0%;}
+  85%  {right:-90%; top:0%;}
+  100% {left:-120%; top:0%;}
+}
+
