@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/DragonBall-TaskList/static/css/main.e4f7e31d.css",
+    "main.js": "/DragonBall-TaskList/static/js/main.29bba461.js",
+    "static/media/background.png": "/DragonBall-TaskList/static/media/background.46cdae207aa189ee1b3e.png",
+    "static/media/logo.png": "/DragonBall-TaskList/static/media/logo.45e6f0c8a9a3eb8e3b36.png",
+    "static/media/com-2.png": "/DragonBall-TaskList/static/media/com-2.9a7c2aff82f84dd137fa.png",
+    "static/media/cloudSound.mp3": "/DragonBall-TaskList/static/media/cloudSound.088754f584186719c4ed.mp3",
+    "static/media/com-9.png": "/DragonBall-TaskList/static/media/com-9.fc2431a386a9a4dc98d7.png",
+    "static/media/radar.png": "/DragonBall-TaskList/static/media/radar.780ca5b2eea014a32536.png",
+    "static/media/com-7.png": "/DragonBall-TaskList/static/media/com-7.6eedab04e50c90d68a7e.png",
+    "static/media/com-6.png": "/DragonBall-TaskList/static/media/com-6.fc7a6d8f920b4b87c3d8.png",
+    "static/media/com-5.png": "/DragonBall-TaskList/static/media/com-5.448bc7f7121c279b33b7.png",
+    "static/media/com-3.png": "/DragonBall-TaskList/static/media/com-3.75c7c20bba0b690d52de.png",
+    "static/media/kiLen.png": "/DragonBall-TaskList/static/media/kiLen.8ca36e8a32aee2e11c6f.png",
+    "static/media/com-4.png": "/DragonBall-TaskList/static/media/com-4.3d9c752a77ae52929120.png",
+    "static/media/com-8.png": "/DragonBall-TaskList/static/media/com-8.dda6d8e26c07c8c849c6.png",
+    "static/media/com-1.png": "/DragonBall-TaskList/static/media/com-1.78061a1e5bdda775aeb8.png",
+    "static/media/cloud.png": "/DragonBall-TaskList/static/media/cloud.ddc837b2f0512f1dac04.png",
+    "static/media/wish.png": "/DragonBall-TaskList/static/media/wish.8dc065eb99a23dd9a023.png",
+    "static/media/ball6.png": "/DragonBall-TaskList/static/media/ball6.ed702bfcf7ef5c81a74a.png",
+    "static/media/ball7.png": "/DragonBall-TaskList/static/media/ball7.c20e28f76509fda5eb64.png",
+    "static/media/ball4.png": "/DragonBall-TaskList/static/media/ball4.43c1d2712fdc6fd67522.png",
+    "static/media/ball5.png": "/DragonBall-TaskList/static/media/ball5.7b238c9594489fa72a9f.png",
+    "static/media/ball2.png": "/DragonBall-TaskList/static/media/ball2.3c0b2333531524a53bd0.png",
+    "static/media/ball3.png": "/DragonBall-TaskList/static/media/ball3.ef158e5cb820e579f6ee.png",
+    "static/media/ball1.png": "/DragonBall-TaskList/static/media/ball1.29ebe36a1a444c61228c.png",
+    "static/media/list.png": "/DragonBall-TaskList/static/media/list.10560ca5bb62e9adbf50.png",
+    "static/media/radar.mp3": "/DragonBall-TaskList/static/media/radar.b0376abbd1980df8bb1e.mp3",
+    "index.html": "/DragonBall-TaskList/index.html",
+    "main.e4f7e31d.css.map": "/DragonBall-TaskList/static/css/main.e4f7e31d.css.map",
+    "main.29bba461.js.map": "/DragonBall-TaskList/static/js/main.29bba461.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4f7e31d.css",
+    "static/js/main.29bba461.js"
+  ]
+}

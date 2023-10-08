@@ -1,8 +1,0 @@
-.radarButton{
-  height: 4.2em;
-  cursor: pointer;
-}
-.radarButton:hover{
-  animation-delay: 2s;
-  transform: scale(1.1);
-}
