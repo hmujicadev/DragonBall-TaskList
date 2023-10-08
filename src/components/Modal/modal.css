@@ -21,6 +21,10 @@
 }
 .flyingCloud{
   width: 58em;
+  @media (max-width:768px) {
+    position: absolute;
+    left:-20em;
+  }
 }
 .modalContentComming{
   animation-name: comming;
@@ -71,6 +75,6 @@
 @keyframes output {
   0%   {right:0%;}
   85%  {right:-90%; top:0%;}
-  100% {left:-120%; top:0%;}
+  100% {left:-180%; top:0%;}
 }
 

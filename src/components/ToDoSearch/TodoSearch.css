@@ -2,16 +2,21 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+	align-items: flex-end;
 }
 
 .inputSearch{
   height: 30px;
   margin-right: 10px;
-  margin-left: 30%;
   outline: none;
   border-radius: 20px;
   border: none;
   padding: 5px 10px;
+	@media (max-width:768px) {
+		max-width: 140px;
+		margin-right: 0;
+	}
+	
 }
 
 .searchIcon{

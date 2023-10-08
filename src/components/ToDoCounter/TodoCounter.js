@@ -11,7 +11,7 @@ function TodoCounter() {
   },[filteredTodos])
 
   return (
-    <span style={{ fontSize: '1.5em', fontWeight: 'bold', marginBottom: '10px' }}>Has completado {completedTodos} de {totalTodos} task{(totalTodos > 1) && 's'}</span>
+    <span style={{ padding:'2px', fontSize: '1.5em', fontWeight: 'bold', marginBottom: '10px',backgroundColor: '#FFF' }}>Has completado {completedTodos} de {totalTodos} task{(totalTodos > 1) && 's'}</span>
   )
 }
 
